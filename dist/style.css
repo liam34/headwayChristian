@@ -485,6 +485,12 @@ button:hover::before,
   background-color: #fafafa;
 }
 
+.article__location {
+  margin-bottom: 1.25rem;
+  padding: auto;
+  padding-left: 5px;
+}
+
 .article__grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -534,9 +540,17 @@ button:hover::before,
   line-height: 1.2;
   color: #2d314d;
   margin-bottom: 0.5rem;
-}
+} 
 .article__description {
   font-size: 0.8125rem;
+}
+
+/* location */
+.location-image2 {
+  background-image: url("/images/gallery/2.JPG");
+  align-self: right;
+  height: 75%;
+  width: 75%;
 }
 
 .footer {
