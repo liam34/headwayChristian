@@ -10,10 +10,10 @@
 and add the following:
 
 ---
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/headw086/public_html/
-    - /bin/cp * $DEPLOYPATH
+deployment:<br>
+  tasks:<br>
+    - export DEPLOYPATH=/home/headw086/public_html/<br>
+    - /bin/cp * $DEPLOYPATH<br>
     
     here a guide documentation : https://documentation.cpanel.net/display/CKB/Guide+to+Git+-+Deployment
     
