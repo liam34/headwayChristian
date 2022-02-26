@@ -4,3 +4,4 @@ deployment:
     - export DEPLOYPATH=/home/headw086/repositories/cd/public_html/
     - /bin/cp * $DEPLOYPATH
     
+    
