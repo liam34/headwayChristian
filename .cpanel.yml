@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/headw086/public_html/repositories/cd/
+    - export DEPLOYPATH=/home/headw086/public_html/
     - /bin/cp * $DEPLOYPATH
     - 
