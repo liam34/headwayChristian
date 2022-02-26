@@ -4,7 +4,7 @@
      follow tutorial https://tinyurl.com/nhapbw9k or https://tinyurl.com/2p86jdsz
      
 - in git version control create a repositories or clone a url from github : tutotial here https://tinyurl.com/5fyuu38r
-- 
+
 - in side your project files create a file named to .cpanel.yml 
 
 and add the following:
