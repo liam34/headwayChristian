@@ -9,7 +9,7 @@
 
 and add the following:
 
----
+---<br>
 deployment:<br>
   tasks:<br>
     - export DEPLOYPATH=/home/headw086/public_html/<br>
