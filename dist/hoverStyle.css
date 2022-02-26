@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image-container {
+    width: 70%;
+    margin: auto;
+    padding-top: 10rem;
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform-style: preserve-3d;
+    transform-origin: center;
+    perspective: 2000px;
+}
+.events-section-card {
+    padding-top: 20px;
+    margin: 20px;
+}
+
+.card{ 
+    flex-basis: 20%;
+    box-shadow: 5px 6px 10px grey;
+    transform: rotateX(60deg);
+    transition: transform .5s;
+}
+
+.card img {
+    width: 100%;
+    
+}
+
+.content{
+    padding: 20px 10px;
+    background: white;
+    color: black
+}
+
+.card1:hover{
+    transform: rotateX(0deg) translateZ(300px);
+}
+.card2:hover{
+    transform: rotateX(0deg) translateZ(300px);
+}
+.card3:hover{
+    transform: rotateX(0deg) translateZ(300px);
+}
+
+
