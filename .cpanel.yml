@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/headwayw086/public_html/repositories/cd/
+    - export DEPLOYPATH=/home/headw086/public_html/repositories/cd/
     - /bin/cp * $DEPLOYPATH
     - 
