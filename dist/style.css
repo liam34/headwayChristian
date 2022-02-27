@@ -419,8 +419,12 @@ button:hover::before,
   .hero__text {
     flex: 2;
     order: 1;
-    text-align: left;
+    text-align: center;
   }
+}
+
+.hero__text container--pall a{
+  display: flex;
 }
 
 .feature {
