@@ -383,7 +383,11 @@ button:hover::before,
     background-position: 0% 83%;
     
   }
+  .hero__image::before:hover{
+   
+  }
 }
+
 .hero__image::after {
   content: "";
   position: absolute;
