@@ -7,7 +7,7 @@
 
 - in side your project files create a file named to .cpanel.yml 
 
-and add the following:
+and add the following codes:
 
 ---<br>
 deployment:<br>
@@ -18,3 +18,6 @@ deployment:<br>
     here a guide documentation : https://documentation.cpanel.net/display/CKB/Guide+to+Git+-+Deployment
     
  - To deploy on git version control Update from Remote then >>>Deploy HEAD Commit
+------------------------------------------------------------------------------------
+Live stream<br>
+- https://www.vidlive.co/create/live-stream-church-services
