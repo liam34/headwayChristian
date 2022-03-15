@@ -74,6 +74,29 @@ html {
   font-size: 100%;
   box-sizing: border-box;
 }
+@media screen and (max-width: 1680px) {
+
+  html {
+    font-size: 12pt;
+  }
+
+}
+
+@media screen and (max-width: 736px) {
+
+  html {
+    font-size: 11pt;
+  }
+
+}
+
+@media screen and (max-width: 360px) {
+
+  html {
+    font-size: 10pt;
+  }
+
+}
 
 *,
 *::before,
@@ -82,6 +105,14 @@ html {
 }
 
 body {
+      -moz-animation: none !important;
+			-webkit-animation: none !important;
+			-ms-animation: none !important;
+			animation: none !important;
+			-moz-transition: none !important;
+			-webkit-transition: none !important;
+			-ms-transition: none !important;
+			transition: none !important;
   margin: 0;
   padding: 0;
   font-family: "Public Sans", sans-serif;
@@ -718,6 +749,12 @@ button:hover::before,
   margin: 0;
 }
 
+ /*articleCard1*/
+ .events-section .image1 {
+  align-items: center;
+  padding-right: 50px;
+  padding-left: 50px;
+ }
 
 /*about page*/
 .about-core-values > p{
