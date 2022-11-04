@@ -184,7 +184,7 @@ a:hover {
 }
 @media (min-width: 64em) {
   .container--pall {
-    padding-top: 6rem;
+    padding-top: 2rem;
     padding-bottom: 6rem;
   }
 }
