@@ -414,9 +414,7 @@ button:hover::before,
     background-position: 0% 63%;
     
   }
-  .hero__image::before:hover{
-   
-  }
+  
 }
 
 .hero__image::after {
