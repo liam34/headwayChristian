@@ -406,7 +406,7 @@ button:hover::before,
     content: "";
     position: absolute;
     height: 100%;
-    background-image: url("/images/gallery/headway01.png");
+    background-image: url("");
     background-repeat: no-repeat;
     background-position: center bottom;
     width: 80%;
