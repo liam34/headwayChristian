@@ -225,6 +225,65 @@ a:hover {
   padding-left: 1.5rem;
 }
 
+/* container starts here */
+
+.container2 {
+  max-width: 30.375rem;
+  margin: 0 auto;
+}
+.container2--pall {
+  padding-top: 4.375rem;
+  padding-right: 1.5rem;
+  padding-bottom: 4.375rem;
+  padding-left: 1.5rem;
+}
+@media (min-width: 64em) {
+  .container2--pall {
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+  }
+}
+.container2--py {
+  padding-top: 4.375rem;
+  padding-bottom: 4.375rem;
+}
+@media (min-width: 64em) {
+  .container2--py {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+.container2--px {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+.container2--pt {
+  padding-top: 4.375rem;
+}
+@media (min-width: 64em) {
+  .container2--pt {
+    padding-top: 6rem;
+  }
+}
+.container2--pr {
+  padding-right: 1.5rem;
+}
+.container2--pb {
+  padding-bottom: 4.375rem;
+}
+@media (min-width: 64em) {
+  .container2--pb {
+    padding-bottom: 6rem;
+  }
+}
+.container2--pl {
+  padding-left: 1.5rem;
+}
+
+
+
+/* container ends here */
+
 .flex {
   display: flex;
 }
@@ -441,6 +500,75 @@ button:hover::before,
     left: 22%;
   }
 }
+
+/* Hero__image2 starts here */
+
+.hero__image2 {
+  position: relative;
+  background-image: url("/images/");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 17.5rem;
+}
+
+@media (min-width: 40em) {
+  .hero__image2 {
+    min-height: 25rem;
+    background-position: center 70%;
+  }
+}
+@media (min-width: 64em) {
+  .hero__image2 {
+    flex: 3;
+    order: 2;
+    height: 41rem;
+    background-image: none;
+  }
+}
+@media (min-width: 64em) {
+  .hero__image2::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    background-image: url("/images/sportsfest.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    width: 80%;
+    background-size: 100%;
+    background-position: 0% 63%;
+    
+  }
+  
+}
+
+.hero__image2::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/gallery/");
+  background-size: 93%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+@media (min-width: 40em) {
+  .hero__image2::after {
+    background-size: 52%;
+  }
+}
+@media (min-width: 64em) {
+  .hero__image2::after {
+    width: 120%;
+    height: 122%;
+    background-size: 94%;
+    background-position: center 150%;
+    left: 22%;
+  }
+}
+
+
+/* Hero__image2 ends here */
 .hero__text {
   text-align: center;
 }
@@ -455,6 +583,97 @@ button:hover::before,
 .hero__text container--pall a{
   display: flex;
 }
+
+/* starts here */
+
+.hero2 {
+  background-color: #fafafa;
+}
+@media (min-width: 64em) {
+  .hero2 .container {
+    display: flex;
+    align-items: center;
+  }
+}
+.hero2__image {
+  position: relative;
+  background-image: url("/images/");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 17.5rem;
+}
+
+@media (min-width: 40em) {
+  .hero2__image {
+    min-height: 25rem;
+    background-position: center 70%;
+  }
+}
+@media (min-width: 64em) {
+  .hero2__image {
+    flex: 3;
+    order: 2;
+    height: 41rem;
+    background-image: none;
+  }
+}
+@media (min-width: 64em) {
+  .hero2__image::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    background-image: url("/images/gallery/headway01.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    width: 80%;
+    background-size: 100%;
+    background-position: 0% 63%;
+    
+  }
+  
+}
+
+.hero2__image::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/gallery/");
+  background-size: 93%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+@media (min-width: 40em) {
+  .hero2__image::after {
+    background-size: 52%;
+  }
+}
+@media (min-width: 64em) {
+  .hero2__image::after {
+    width: 120%;
+    height: 122%;
+    background-size: 94%;
+    background-position: center 150%;
+    left: 22%;
+  }
+}
+.hero2__text {
+  text-align: center;
+}
+@media (min-width: 64em) {
+  .hero2__text {
+    flex: 2;
+    order: 1;
+    text-align: center;
+  }
+}
+
+.hero2__text container--pall a{
+  display: flex;
+}
+
+/* ends here */
 
 .feature {
   background-color: #f3f4f6;
