@@ -531,7 +531,7 @@ button:hover::before,
     content: "";
     position: absolute;
     height: 100%;
-    background-image: url("/images/gallery/sportsfest.svg");
+    background-image: url("/images/gallery/sportsfest.png");
     background-repeat: no-repeat;
     background-position: center bottom;
     width: 80%;
@@ -569,6 +569,8 @@ button:hover::before,
 
 
 /* Hero__image2 ends here */
+
+
 .hero__text {
   text-align: center;
 }
@@ -623,7 +625,7 @@ button:hover::before,
     content: "";
     position: absolute;
     height: 100%;
-    background-image: url("/images/gallery/sportsfest.svg");
+    background-image: url("/images/gallery/sportsfest.png");
     background-repeat: no-repeat;
     background-position: center bottom;
     width: 80%;
