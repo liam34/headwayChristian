@@ -443,7 +443,7 @@ button:hover::before,
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  min-height: 17.5rem;
+  min-height: 1.5rem;
 }
 
 @media (min-width: 40em) {
